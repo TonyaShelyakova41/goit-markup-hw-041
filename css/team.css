@@ -1,0 +1,33 @@
+.team {
+  background-color: #f4f4fd;
+}
+.time-title {
+}
+.team-list {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
+}
+.team-item {
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 3 * 24px) / 4);
+  background-color: #fff;
+}
+.team-ill {
+  display: block;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.team-desc {
+  text-align: center;
+}
+
+.team-overlay {
+  padding: 32px 16px;
+}

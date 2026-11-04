@@ -1,0 +1,48 @@
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+.header-logo {
+  color: #2e2f42;
+}
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  margin-left: 76px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header-item {
+}
+
+.header-link {
+  display: block;
+  padding: 24px 0;
+  font-weight: 500;
+}
+
+.address {
+  margin-left: auto;
+}
+.address-list {
+  display: flex;
+  gap: 40px;
+}
+
+.address-link {
+  display: block;
+  padding: 24px 0;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #404bbf;
+}

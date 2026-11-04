@@ -1,0 +1,33 @@
+.portfolio {
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.portfolio-item {
+  border-radius: 0 0 4px 4px;
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-ill {
+  display: block;
+}
+.portfolio-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.portfolio-desc {
+}
+
+.portfolio-overlay {
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
