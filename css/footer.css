@@ -10,3 +10,26 @@
   color: #f4f4fd;
   width: 264px;
 }
+
+.footer-container {
+  display: flex;
+}
+.container-footer-social {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-left {
+  margin-right: 120px;
+}
+
+.footer-social-title {
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.footer-social .team-social-link:hover,
+.footer-social .team-social-link:focus {
+  background-color: #31d0aa;
+}
