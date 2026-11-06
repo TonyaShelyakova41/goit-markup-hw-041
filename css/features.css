@@ -5,7 +5,6 @@
 .features-list {
   display: flex;
   justify-content: center;
-
   gap: 24px;
 }
 .features-item {
@@ -28,9 +27,4 @@
   line-height: 1.2;
   color: #2e2f42;
   margin-bottom: 8px;
-}
-.features-desc {
-}
-
-.features .container {
 }
